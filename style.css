@@ -1,11 +1,16 @@
 body {
     margin: 0;
-    background-color:aquamarine;
+    background-color:lightblue;
     font-family:monospace;
 }
 .container {
     margin: auto;
     padding: 20px;
+    width: 75%;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 10px;
 }
 
 .container p {
@@ -22,7 +27,7 @@ h1 {
 
 footer {
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color: aliceblue;
     position: fixed;
     bottom: 0px;
@@ -30,7 +35,8 @@ footer {
 
 footer p {
     text-align: center;
-    margin-top: 8px;
+    margin-top: 15px;
+    font-size: 17px;
 }
 
 .container p:hover{
@@ -46,7 +52,9 @@ footer a:hover {
     color: lightseagreen;
 }
 
-@media  screen and (min-width: 800px) {
+
+
+@media  screen and (min-width: 400px) {
     .container {
         margin: auto;
         padding: 20px;
