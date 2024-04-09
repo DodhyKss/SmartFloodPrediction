@@ -46,7 +46,7 @@ footer a:hover {
     color: lightseagreen;
 }
 
-@media  screen and (min-width: 600px) {
+@media  screen and (min-width: 800px) {
     .container {
         margin: auto;
         padding: 20px;
